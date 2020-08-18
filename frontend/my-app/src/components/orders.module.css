@@ -1,0 +1,58 @@
+.orders{
+    border-radius: 12px;
+    box-shadow: darkgray;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(255, 233, 163);
+    align-items: left;
+    padding-left: 1%;
+    padding-bottom: 0.5%;
+    padding-top: 0.5%;
+    min-width: 20%;
+    max-height: 5%;
+    white-space: nowrap;
+}
+
+.goods{
+    border: 1px solid black;
+    border-radius: 12px;
+    box-shadow: rgb(121, 119, 119);
+    margin: 3px;
+    justify-content: left;
+    background: white;
+    align-items: left;
+    min-width: 40%;
+    min-height: 20%;
+    white-space: nowrap;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.head{
+  display: flex; 
+  padding: 10px;
+  padding-bottom: none;
+  margin-bottom: none;
+  padding-left: 40px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.errorMessage{
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    font-size: 30px;
+    text-align: center;  
+    width:100%;
+    font-size:40px;
+    line-height: 3em;
+    font-weight: bolder;
+}
+
+.image{
+    border-radius: 50%;
+}

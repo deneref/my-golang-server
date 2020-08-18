@@ -1,0 +1,82 @@
+.App {
+  min-height: 100vh;
+  background: linear-gradient(-45deg, rgb(203 17 171), rgb(153 0 153), rgb(72 17 115)) ;
+  padding-bottom: none;
+}
+div {
+  margin: none;
+}
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold ;
+}
+
+p{
+  text-align: left;
+  line-height: 0.005;
+  white-space: nowrap;
+  border: none;
+  padding-bottom: none;
+}
+h1{
+  text-align: left;
+  line-height: 0.005;
+  border: none;
+  padding-right: 10px;
+}
+h2{
+  text-align: left;
+  line-height: 0.005;
+  border: none;
+}
+ol{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.search-button{
+  background:rgb(72 17 115);
+  justify-content: center;
+  flex-wrap: wrap;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 30px;
+  color: beige;
+}
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.orders{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Bl';
+  src: url('file:./my_fonts/ProximaNova/ProximaNova-Black.eot') format('embedded-opentype');
+  src: local('Proxima Nova Black'), local('ProximaNova-Black'),
+  url('file:./my_fonts/ProximaNova/ProximaNova-Black.woff') format('woff'),
+  url('file:./my_fonts/ProximaNova/ProximaNova-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova Th';
+	src: url('file:./my_fonts/ProximaNova/ProximaNova-Extrabld.eot') format('embedded-opentype');
+	font-weight: 800;
+	font-style: normal;
+}

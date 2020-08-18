@@ -1,0 +1,12 @@
+[SQLDataBase]
+  Server = "localhost"
+  Database = "test_m"
+  ApplicationName = "service"
+  MaxIdleConns = 2
+  MaxOpenConns = 2
+  ConnMaxLifetime = "5m"
+
+[ServerOpt]
+  ReadTimeout = "5s"
+  WriteTimeout = "5s"
+  IdleTimeout = "5s"
